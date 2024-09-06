@@ -1,0 +1,85 @@
+
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.profile-image {
+    background-color: #837F7D;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-description {
+    background-color: #a6a6a6;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+
+
+.name-font {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.profile-image-div {
+    text-align: center;
+}
+
+.description-div {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.description-div>h2 {
+    font-size: 40px;
+}
+
+.description-div>p {
+    font-size: 20px;
+}
+
+#skills-border {
+    text-align: center;
+}
+
+#penultimate {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: Center;
+    background-color: #a6a6a6;
+    padding-bottom: 50px;
+}
+
+#penultimate > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+@media (max-width:744px){
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
